@@ -1,0 +1,44 @@
+{
+  "name": "btccore-explorers",
+  "version": "1.0.1",
+  "description": "Module to query blockchain apis for Btccore.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "coverage": "gulp coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/owstack/btccore-explorers.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "btccore",
+    "explorer"
+  ],
+  "author": "Open Wallet Stack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/owstack/btccore-explorers/issues"
+  },
+  "browser": {
+    "request": "browser-request"
+  },
+  "homepage": "https://github.com/owstack/btccore-explorers",
+  "devDependencies": {
+    "btccore-build": "git://github.com/owstack/btccore-build.git",
+    "brfs": "^1.2.0",
+    "browserify": "^8.1.1",
+    "chai": "^2.0.0",
+    "gulp": "^3.8.10",
+    "sinon": "^1.12.2"
+  },
+  "dependencies": {
+    "btccore-lib": "git://github.com/owstack/btccore-lib.git#master",
+    "browser-request": "^0.3.3",
+    "request": "^2.51.0"
+  }
+}
