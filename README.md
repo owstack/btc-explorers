@@ -1,5 +1,5 @@
-<img src="http://btccore.io/css/images/module-explorer.png" alt="btccore explorers" height="35">
-# Blockchain APIs for btccore
+Btccore Blockchain APIs
+======
 
 [![NPM Package](https://img.shields.io/npm/v/btccore-explorers.svg?style=flat-square)](https://www.npmjs.org/package/btccore-explorers)
 [![Build Status](https://img.shields.io/travis/owstack/btccore-explorers.svg?branch=master&style=flat-square)](https://travis-ci.org/owstack/btccore-explorers)
@@ -9,7 +9,7 @@ A module for [btccore](https://github.com/owstack/btccore) that implements HTTP 
 
 ## Attribution
 
-This repository was created by copy forking [bitcore-explorers commit 1f1334f] (https://github.com/bitpay/bitcore-explorers/commit/1f1334f7ea7f75ed80f62d379613a961a66403f2).
+This repository was created by copy forking [bitcore-explorers commit 1f1334f](https://github.com/bitpay/bitcore-explorers/commit/1f1334f7ea7f75ed80f62d379613a961a66403f2).
 
 ## Getting started
 
