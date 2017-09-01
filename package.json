@@ -1,6 +1,6 @@
 {
   "name": "btccore-explorers",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "description": "Module to query blockchain apis for Btccore.",
   "main": "index.js",
   "directories": {
