@@ -19,7 +19,6 @@
     "btccore",
     "explorer"
   ],
-  "author": "Open Wallet Stack",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/owstack/btccore-explorers/issues"
@@ -37,7 +36,7 @@
     "sinon": "^1.12.2"
   },
   "dependencies": {
-    "btccore-lib": "git://github.com/owstack/btccore-lib.git#master",
+    "btccore-lib": "git://github.com/owstack/btccore-lib.git",
     "browser-request": "^0.3.3",
     "request": "^2.51.0"
   }
