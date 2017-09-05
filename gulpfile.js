@@ -1,6 +1,3 @@
 'use strict';
-
-var build = require('btccore-build');
-
-build('explorers');
-
+var owsTasks = require('ows-build');
+owsTasks('btccore', 'explorers');
