@@ -1,7 +1,7 @@
 {
-  "name": "btccore-explorers",
+  "name": "btc-explorers",
   "version": "0.0.1",
-  "description": "Module to query blockchain apis for Btccore.",
+  "description": "Module to query blockchain apis for Btc.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -12,23 +12,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/owstack/btccore-explorers.git"
+    "url": "https://github.com/owstack/btc-explorers.git"
   },
   "keywords": [
     "bitcoin",
-    "btccore",
+    "btc",
     "explorer"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/owstack/btccore-explorers/issues"
+    "url": "https://github.com/owstack/btc-explorers/issues"
   },
   "browser": {
     "request": "browser-request"
   },
-  "homepage": "https://github.com/owstack/btccore-explorers",
+  "homepage": "https://github.com/owstack/btc-explorers",
   "dependencies": {
-    "btccore-lib": "https://github.com/owstack/btccore-lib",
+    "btc-lib": "https://github.com/owstack/btc-lib",
     "browser-request": "^0.3.3",
     "request": "^2.51.0"
   },

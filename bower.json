@@ -1,18 +1,17 @@
 {
-  "name": "btccore-explorers",
-  "main": "/btccore-explorers.min.js",
+  "name": "btc-explorers",
+  "main": "/btc-explorers.min.js",
   "version": "0.0.1",
-  "homepage": "https://github.com/owstack/btccore-explorers",
+  "homepage": "https://github.com/owstack/btc-explorers",
   "authors": [
     "Open Wallet Stack"
   ],
-  "description": "Module to query blockchain apis for Btccore.",
+  "description": "Module to query blockchain apis for Btc.",
   "moduleType": [
     "globals"
   ],
   "keywords": [
     "bitcoin",
-    "btccore",
     "btc",
     "satoshi",
     "explorer"

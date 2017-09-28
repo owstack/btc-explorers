@@ -1,8 +1,8 @@
 *.sw[a-z]
 coverage
 node_modules
-btccore-explorers.js
-btccore-explorers.min.js
+btc-explorers.js
+btc-explorers.min.js
 
 lib/errors/index.js
 npm-debug.log
