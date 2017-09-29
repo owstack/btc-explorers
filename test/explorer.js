@@ -3,14 +3,14 @@
 var sinon = require('sinon');
 var should = require('chai').should();
 var expect = require('chai').expect;
-var btc = require('btc-lib');
+var btcLib = require('btc-lib');
 var explorers = require('../');
 
 var Explorer = explorers.Explorer;
-var Address = btc.Address;
-var Transaction = btc.Transaction;
+var Address = btcLib.Address;
+var Transaction = btcLib.Transaction;
 var AddressInfo = explorers.models.AddressInfo;
-var Networks = btc.Networks;
+var Networks = btcLib.Networks;
 
 describe('Explorer', function() {
 
@@ -98,7 +98,7 @@ describe('Explorer', function() {
       }, [invalidUtxo]);
       explorer.getUtxos(address, function(error, unspent) {
         expect(error).to.exist;
-        expect(error.name).to.equal('btc.ErrorInvalidArgument');
+        expect(error.name).to.equal('ows.ErrorInvalidArgument');
         expect(error.toString()).to.contain('scriptPubKey');
         callback();
       });
