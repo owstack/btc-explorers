@@ -1,5 +1,5 @@
 {
-  "name": "btc-explorers",
+  "name": "@owstack/btc-explorers",
   "version": "0.0.1",
   "description": "Module to query blockchain apis for Btc.",
   "main": "index.js",
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/owstack/btc-explorers",
   "dependencies": {
-    "btc-lib": "https://github.com/owstack/btc-lib",
+    "@owstack/btc-lib": "^0.0.1",
     "browser-request": "^0.3.3",
     "request": "^2.51.0"
   },
@@ -37,7 +37,7 @@
     "browserify": "^8.1.1",
     "chai": "^2.0.0",
     "gulp": "^3.8.10",
-    "ows-build": "https://github.com/owstack/ows-build",
+    "@owstack/ows-build": "^0.0.1",
     "sinon": "^1.12.2"
   }
 }

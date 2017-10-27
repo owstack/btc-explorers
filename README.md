@@ -23,7 +23,7 @@ bower install btc-explorers
 At the moment, only Explorer is supported, and only getting the UTXOs for an address and broadcasting a transaction.
 
 ```javascript
-var explorers = require('btc-explorers');
+var explorers = require('@owstack/btc-explorers');
 var explorer = new explorers.Explorer();
 
 explorer.getUtxos('1Bitcoin...', function(err, utxos) {
